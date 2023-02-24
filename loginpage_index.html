@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginpage_styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <br><br>
+            <label for="password">Password:</label>
+            <div class="password-wrapper">
+                <input type="password" id="password" name="password">
+                <button type="button" class="reveal-button">Show</button>
+            </div>
+            <br><br>
+            <button type="button" onclick="login()">Login</button>
+        </form>
+    </div>
+    <script src="loginpage_scripts.js"></script>
+</body>
+
+</html>
